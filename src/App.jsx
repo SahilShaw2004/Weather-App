@@ -52,15 +52,15 @@ function App() {
   const getWeatherIconUrl = (main) => {
     switch (main) {
       case "Clear":
-        return "/sun.webp";
+        return "./public/sun.webp";
       case "Drizzle":
-        return "/rain_with_cloud.webp";
+        return "./public/rain_with_cloud.webp";
       case "Rain":
-        return "/thunder.webp";
+        return "./public/thunder.webp";
       case "Haze":
-        return "/Tornado.webp";
+        return "./public/Tornado.webp";
       case "Clouds":
-        return "/Cloud.png";
+        return "./public/Cloud.png";
       default:
         return null;
     }
